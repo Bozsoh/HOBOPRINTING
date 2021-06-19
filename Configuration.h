@@ -28,7 +28,7 @@
 //#define STRING_VERSION "1.0.2"
 
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
-#define STRING_CONFIG_H_AUTHOR "(Craig B H, Xmas 2016)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(C&B, Juneteenth 21)" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -53,7 +53,7 @@
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
-// #define MACHINE_UUID "00000000-0000-0000-0000-000278144127"
+ #define MACHINE_UUID "4b59de5e-fdf7-49a7-9c85-a02a8d4ed302"
 
 // This defines the number of extruders
 #define EXTRUDERS 1
