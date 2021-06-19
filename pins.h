@@ -1243,11 +1243,11 @@
 
 #ifdef SANGUINOLOLU_V_1_2
 
- #define HEATER_BED_PIN     14 // (bed)
- #define X_ENABLE_PIN       -1
- #define Y_ENABLE_PIN       -1
- #define Z_ENABLE_PIN       -1
- #define E0_ENABLE_PIN      -1
+ #define HEATER_BED_PIN     12 // (bed)
+ #define X_ENABLE_PIN       14
+ #define Y_ENABLE_PIN       14
+ #define Z_ENABLE_PIN       26
+ #define E0_ENABLE_PIN      14
 
  #ifdef LCD_I2C_PANELOLU2
    #define FAN_PIN          4 // Uses Transistor1 (PWM) on Panelolu2's Sanguino Adapter Board to drive the fan
